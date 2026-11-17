@@ -4,7 +4,9 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "my-react-app",
+	"name": "bitter-snow-cf1b",
+    "workers_dev": false,
+    "routes": [{ "pattern": "www.firelister.app", "custom_domain": true }],
 	"main": "worker/index.ts",
 	"compatibility_date": "2026-11-10",
 	"assets": {

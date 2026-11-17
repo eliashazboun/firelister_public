@@ -1,0 +1,12 @@
+.verification { min-height: 70vh; display: grid; place-items: center; padding-block: clamp(40px, 8vw, 90px); }
+.confirmation { width: min(100%, 570px); padding: clamp(24px, 5vw, 44px); border: 1px solid var(--line); border-radius: 18px; background: radial-gradient(ellipse at top right, #ff762e0d, transparent 70%), var(--panel); box-shadow: 0 24px 60px #0004; }
+.confirmation-logo { display: block; object-fit: contain; margin-bottom: 24px; border-radius: 12px; }
+.confirmation h1 { font-size: clamp(2.3rem, 6vw, 3.4rem); }
+.confirmation p { color: var(--muted); }
+.confirmation .eyebrow { color: var(--amber); }
+.next-step { background: var(--panel-raised); padding: 18px; border: 1px solid var(--line); border-radius: 10px; margin-block: 24px; }
+.next-step p { margin: 7px 0 0; }
+.home-link { display: inline-flex; align-items: center; gap: 18px; text-decoration: none; background: var(--orange); color: #1b0e08; font-weight: 800; border-radius: 8px; padding: 11px 16px; }
+.home-link:hover { background: var(--amber); }
+.confirmation .support { font-size: .85rem; margin: 20px 0 0; }
+.support a { color: var(--amber); }
